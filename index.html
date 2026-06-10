@@ -14,7 +14,7 @@
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Sankofa+Display&display=swap" rel="stylesheet">
 <style>
   :root{
     --charcoal:#121212;
@@ -42,7 +42,8 @@
   a{color:inherit;text-decoration:none}
   .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
   section{padding:80px 0}
-  h2{font-size:clamp(1.7rem,4vw,2.4rem);font-weight:700;line-height:1.2;margin-bottom:12px}
+  h1,h2{font-family:'Sankofa Display','Poppins',sans-serif;font-weight:400}
+  h2{font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.2;margin-bottom:12px}
   .kicker{
     display:inline-block;color:var(--flame);font-weight:600;letter-spacing:.18em;
     text-transform:uppercase;font-size:.78rem;margin-bottom:10px;
@@ -56,7 +57,7 @@
     border-bottom:1px solid rgba(255,255,255,.07);
   }
   .nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
-  .nav-logo img{height:110px;width:auto;object-fit:cover;margin-left:-20px}
+  .nav-logo img{height:110px;width:auto;object-fit:cover;margin-left:-20px;mix-blend-mode:screen}
   .nav-links{display:flex;gap:26px;align-items:center;font-size:.92rem;font-weight:500}
   .nav-links a:hover{color:var(--ember)}
   .btn{
@@ -81,7 +82,7 @@
     padding:90px 0 70px;
   }
   .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
-  .hero h1{font-size:clamp(2.2rem,5.4vw,3.6rem);font-weight:800;line-height:1.08;letter-spacing:-.01em}
+  .hero h1{font-size:clamp(2.3rem,5.6vw,3.8rem);line-height:1.1;letter-spacing:.01em}
   .hero h1 em{font-style:normal;color:var(--flame)}
   .hero p.lead{margin:22px 0 8px;color:#cfccc7;font-size:1.12rem;max-width:540px}
   .hero-brands{margin:14px 0 30px;color:var(--grey);font-size:.95rem;font-weight:500}
@@ -222,7 +223,7 @@
   /* ---------- footer ---------- */
   footer{border-top:1px solid rgba(255,255,255,.08);padding:48px 0 38px;background:var(--charcoal)}
   .foot-grid{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;flex-wrap:wrap}
-  .foot-grid img{height:120px;width:auto;margin:-26px 0 0 -22px}
+  .foot-grid img{height:120px;width:auto;margin:-26px 0 0 -22px;mix-blend-mode:screen}
   .foot-col{font-size:.88rem;color:var(--grey)}
   .foot-col b{display:block;color:var(--offwhite);margin-bottom:10px;font-size:.92rem}
   .foot-col a{display:block;padding:3px 0}
